@@ -24,8 +24,8 @@
 // =====================================================
 // WIFI – FIX (ELIEH STANDARD)
 // =====================================================
-static const char* WIFI_SSID = "HUAWEI-B535-6EF8";
-static const char* WIFI_PASS = "F006NB031R9";
+static const char* WIFI_SSID = "IDE A SAJÁT WI FI KELL";
+static const char* WIFI_PASS = "IDE A HOZZÁ TARTOZO JELSZÓT";
 
 // =====================================================
 // OPENAI – kulcsot CSAK helyben írj be!
