@@ -246,3 +246,22 @@ A kulcsot **közvetlenül a forráskódban** kell megadni:
 
 ```cpp
 static const char* OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+
+---
+
+## 📦 Könyvtárak telepítése (ES8388 codec)
+
+A projekt az **AI Thinker AudioKit A1S** kártya **ES8388** audió kodekjét használja.  
+Ehhez szükség van az ES8388 könyvtárra, amit a repóban **ZIP formában** mellékeltem.
+
+### 1) ArduinoDroid (Android) – ajánlott telepítés
+
+1. Töltsd le a repót (Code → Download ZIP), vagy csak az `ES8388` könyvtár ZIP fájlját.
+2. Nyisd meg a ZIP-et (pl. RAR appal), és **csomagold ki** az ES8388 könyvtárat az ArduinoDroid **felhasználói könyvtárába**.
+
+**A cél:** az ES8388 könyvtár ebbe a mappába kerüljön:
+
+- `Arduino/libraries/ES8388/`
+
+A mappaszerkezet így nézzen ki: Arduino/ libraries/ ES8388/ ES8388.h ES8388.cpp
+
