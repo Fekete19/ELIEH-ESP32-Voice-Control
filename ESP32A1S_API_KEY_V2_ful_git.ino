@@ -24,7 +24,7 @@
 // =====================================================
 // WIFI – FIX (ELIEH STANDARD)
 // =====================================================
-static const char* WIFI_SSID = "IDE A SAJÁT WI FI KELL";
+static const char* WIFI_SSID = "IDE A SAJÁT WI-FI KELL";
 static const char* WIFI_PASS = "IDE A HOZZÁ TARTOZO JELSZÓT";
 
 // =====================================================
