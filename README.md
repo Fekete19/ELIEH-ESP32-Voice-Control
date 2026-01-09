@@ -265,3 +265,48 @@ Ehhez szükség van az ES8388 könyvtárra, amit a repóban **ZIP formában** me
 
 A mappaszerkezet így nézzen ki: Arduino/ libraries/ ES8388/ ES8388.h ES8388.cpp
 
+---
+
+## 📦 ES8388 könyvtár telepítése ArduinoDroid alatt
+
+> ⚠️ **Fontos megjegyzés**  
+> Az ArduinoDroid jelenleg **nem támogatja megbízhatóan a ZIP formátumú könyvtárak közvetlen importálását**, ezért az alábbi **kézi módszer ajánlott és tesztelt**.
+
+---
+
+### 📱 Szükséges alkalmazás
+
+- **RAR** (vagy bármilyen ZIP/RAR kezelő Androidra)
+
+---
+
+### 🔧 Telepítési lépések (ArduinoDroid – működő módszer)
+
+1. Töltsd le a repóból az **`ES8388` könyvtárat tartalmazó ZIP fájlt**.
+2. Nyisd meg a ZIP fájlt a **RAR alkalmazással**.
+3. A ZIP-en belül jelöld ki az **`ES8388` mappát**, amely az alábbi fájlokat tartalmazza:
+   - `ES8388.h`
+   - `ES8388.cpp`
+4. Válaszd a **Kibontás / Másolás ide** opciót.
+5. Tallózd ki az ArduinoDroid felhasználói könyvtárát:
+
+```text
+/storage/emulated/0/Arduino/libraries/
+Egyes rendszereken az alábbi útvonal is használatos:
+/storage/emulated/0/Arduino/User/libraries/
+
+
+Illeszd be ide az ES8388 mappát.
+📁 Könyvtárstruktúra ellenőrzése
+A könyvtárnak pontosan így kell kinéznie:
+
+Arduino/
+└── libraries/
+    └── ES8388/
+        ├── ES8388.h
+        └── ES8388.cpp
+
+
+külső Library Manager nélkül
+belső #include "ES8388.h" hivatkozással
+hibamentesen működik.
