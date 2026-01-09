@@ -4,7 +4,7 @@
 #include <driver/i2s.h>
 #include <time.h>
 
-#include "ES8388/ES8388.h"
+#include "ES8388.h"
 #include "FS.h"
 #include "SD_MMC.h"
 #include "btn_fix.h"
